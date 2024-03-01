@@ -1,0 +1,19 @@
+{
+  "name": "astro-auth",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^7.3.4",
+    "@auth/core": "^0.18.6",
+    "@supabase/supabase-js": "^2.39.7",
+    "astro": "^4.4.6",
+    "auth-astro": "^4.1.1"
+  }
+}
