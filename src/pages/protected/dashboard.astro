@@ -1,0 +1,15 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const email = Astro.locals.data.user.email;
+---
+
+<Layout title="dashboard">
+  <h1>Dashboard</h1>
+  <p>Secret information</p>
+  <p>{email}</p>
+  <a href="/protected/anothersecretpage">More secrets</a>
+  <form action="/api/auth/signout">
+    <button type="submit">Sign out</button>
+  </form>
+</Layout>
